@@ -1,0 +1,50 @@
+
+img {
+    width: 100%;
+}
+
+.icon {
+    width: 60px;
+}
+
+.interest>div {
+    border: #253438 solid 3px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #4C6C76;
+}
+
+.interest {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 8px;
+    margin-inline: 16px;
+    margin-bottom: 32px;
+}
+
+@media (max-width: 200px) {
+    .interest {
+        grid-template-columns: 1fr;
+    }
+}
+
+.nom-ci {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.annee {
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.flex-icone-nom {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+}
