@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/header-footer.css">
+    <link rel="stylesheet" href="../styles/stylecontact.css">
+</head>
+
+<body>
+    
+    <div class="ruban"></div>
+    <header></header>
+
+    <div class="blanc">Page en cours de développement! En attendant, vous pouvez me contacter à<span> yanis.oberle@gmail.com</span></div>
+
+    <form action="contacter">
+        <div class="flexform">
+            <h1>Me contacter</h1>
+            <h2>Vous êtes?</h2>
+            <div class="radio-group">
+                <input class="radio-input" name="radio-group" id="radio1" type="radio">
+                <label class="radio-label" for="radio1">
+                    <span class="radio-inner-circle"></span>
+                    Un recruteur
+                </label>
+
+                <input class="radio-input" name="radio-group" id="radio2" type="radio">
+                <label class="radio-label" for="radio2">
+                    <span class="radio-inner-circle"></span>
+                    Un potentiel client
+                </label>
+
+
+                <div><input type="text" placeholder="Adresse Mail" name="text" class="input"></div>
+                <label for="message"></label>
+
+                <textarea placeholder="Votre message" class="input b" name="message" rows="6" cols="50"></textarea>
+
+                <div><button class="envoyer">Envoyer</button></div>
+            </div>
+        </div>
+        <div class="wip"><img src="../images/wip.webp" alt=""></div>
+    </form>
+
+    <footer style="position:fixed; bottom:0; left:0; right: 0;"></footer>
+
+</body>
+<script src="../js/script.js"></script>
+<script src="../js/menu-toggle.js"></script>
+
+</html>
