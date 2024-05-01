@@ -13,6 +13,17 @@ const VIDEO = {
       "code": '<iframe width="560" height="315" src="https://www.youtube.com/embed/D2nbqxjNDzk?si=tEgUJDP3wIMO4Z0H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
       "année": 2024,
     },
+
+        "animlogo": {
+        "role": "Motion Designer",
+        "titre": "Animation de logo",
+        "description": "Animation d'un logo trouvé sur dribbble.com, décomposé dans illustrator, puis animé à ma sauce dans After Effects." ,
+        "competences": {
+          "Motion design": "Vélocité des images-clés, décalage des actions entre les calques similaires, maitrise de la physique des calques",
+        },
+        "code": '<iframe width="560" height="315" src="https://youtube.com/embed/r-gowOt_org?si=I2zCgV3MS8i8Tpu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+        "année": 2024,
+      },
     
     "motiondesign": {
         "role": "Motion Designer, Sound Designer",
@@ -100,19 +111,19 @@ const VIDEO = {
         "année": 2023,
       },  
       
-      "minecraft": {
-        "role": "Monteur",
-        "titre": "Vidéo Minecraft",
-        "description": "Cette vidéo retrace une aventure de plus de 300h sur le jeu vidéo Minecraft et présente une construction originale et créative dans un monde ou une seule mort me supprime l'accès au monde." ,
-        "competences": {
-          "Derush": "Sélection des plans pertinents pour retracer 300h en 5min de vidéo",
-          "Montage": "Cohérence entre la narration et les images montrées",
-          "Créativité": "Et oui, en dehors de la vidéo en elle-même, ce projet m'a demandé une certaine inventivité!",
-          "Anglais": "J'ai décidé de réaliser ce projet en anglais, pour toucher un public plus large. Ce fût un bon exercice."
-        },
-        "code": '<iframe width="560" height="315" src="https://www.youtube.com/embed/clcFfsE_JoU?si=9Xr-CgXtEURgaPYp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-        "année": 2022,
-      },
+      // "minecraft": {
+      //   "role": "Monteur",
+      //   "titre": "Vidéo Minecraft",
+      //   "description": "Cette vidéo retrace une aventure de plus de 300h sur le jeu vidéo Minecraft et présente une construction originale et créative dans un monde ou une seule mort me supprime l'accès au monde." ,
+      //   "competences": {
+      //     "Derush": "Sélection des plans pertinents pour retracer 300h en 5min de vidéo",
+      //     "Montage": "Cohérence entre la narration et les images montrées",
+      //     "Créativité": "Et oui, en dehors de la vidéo en elle-même, ce projet m'a demandé une certaine inventivité!",
+      //     "Anglais": "J'ai décidé de réaliser ce projet en anglais, pour toucher un public plus large. Ce fût un bon exercice."
+      //   },
+      //   "code": '<iframe width="560" height="315" src="https://www.youtube.com/embed/clcFfsE_JoU?si=9Xr-CgXtEURgaPYp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+      //   "année": 2022,
+      // },
 
       
   }
