@@ -1,0 +1,5 @@
+//-------------------
+// AFFICHER LE FOOTER
+//-------------------
+
+document.querySelector("footer").innerHTML = ('<div class="flexfooter"><div><div class="footerelement yo">Yanis OBERLÉ</div><a href="../index.html"><div class="footerelement g">Accueil</div></a><a href="../pages/projets.html"><div class="footerelement g">Projets</div></a></div ><div><div class="flex mid"><a href="../pages/mentionslegales.html"><div class="footerelement m">Mentions légales</div></a></div><div class="flex bottom"><div class="footerelement no">Crovore © 2024. Tous droits réservés</div><div class="footerelement no">Updated: 25/05/2024</div></div></div><div><a href="https://www.instagram.com/yaniseau6/"><div class="footericon"><img src="../img/instagram.svg" alt=""></div></a><a href="https://www.linkedin.com/in/yanis-oberl%C3%A9-b4a7072a4/"><div class="footericon"><img src="../img/linkedin-in.svg" alt=""></div></a></div></div >')
